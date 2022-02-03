@@ -2,7 +2,7 @@ const mongodb = require('mongodb');
 const dotenv= require('dotenv'); //need to add npm i dotenv to use the .env library
 const express = require('express');
 
-dotenv.config(); // 
+dotenv.config(); // this loads the env file
 
 const app = express();
 app.use(express.json())
